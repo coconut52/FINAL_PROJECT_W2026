@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a59722edb71945b27c16fd2aff32e, type: 3}
+  m_Name: DaisyInfo
+  m_EditorClassIdentifier: Assembly-CSharp::PlantInfoData
+  plantName: Daisy
+  description: "A daisy is a composite flower (genera Bellis or Chrysanthemum) featuring
+    white petals, a yellow center, and the ability to close at night, often symbolizing
+    innocence, purity, true love, and new beginnings. Originating from the Old English
+    \"d\xE6geseage\" (day's eye), it is also used colloquially to describe a first-rate
+    person or thing."
+  plantImage: {fileID: 21300000, guid: f5bcd3ab8c43a2f4896b8386e3520474, type: 3}

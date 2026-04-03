@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a59722edb71945b27c16fd2aff32e, type: 3}
+  m_Name: TulipInfo
+  m_EditorClassIdentifier: Assembly-CSharp::PlantInfoData
+  plantName: Tulip
+  description: A tulip is a Eurasian herbaceous, bulbiferous perennial plant in the
+    genus Tulipa, renowned for its large, showy, cup-shaped spring flowers, often
+    in shades of red, pink, yellow, or white. They are popular garden plants, cut
+    flowers, and, in some cases, edible, representing a major cultural symbol of
+    the Netherlands.
+  plantImage: {fileID: 21300000, guid: 68ef600451c0f804a9a10381d40579a8, type: 3}

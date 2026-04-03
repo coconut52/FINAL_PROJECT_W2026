@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a59722edb71945b27c16fd2aff32e, type: 3}
+  m_Name: CornflowerInfo
+  m_EditorClassIdentifier: Assembly-CSharp::PlantInfoData
+  plantName: Cornflower
+  description: "The cornflower (Centaurea cyanus) is a vibrant blue wildflower, often
+    called a bachelor\u2019s button, blue bottle, or bluet. It symbolizes hope, delicacy,
+    refinement, and, in folklore, love and fidelity. It is commonly used in skincare
+    for its anti-inflammatory properties, as a culinary garnish, and as a popular
+    choice for wedding bouquets."
+  plantImage: {fileID: 21300000, guid: 069b16a3f7e394f4cb6d62deac2c266d, type: 3}

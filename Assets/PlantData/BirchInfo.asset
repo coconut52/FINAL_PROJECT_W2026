@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a59722edb71945b27c16fd2aff32e, type: 3}
+  m_Name: BirchInfo
+  m_EditorClassIdentifier: Assembly-CSharp::PlantInfoData
+  plantName: Birch Tree
+  description: A birch tree is a thin-leaved, deciduous hardwood tree belonging to
+    the genus Betula and the family Betulaceae. Known for their distinctive paper-like
+    bark that often peels in thin, horizontal layers, they are fast-growing, short-lived
+    pioneer species common across the Northern Hemisphere's temperate and boreal
+    regions.
+  plantImage: {fileID: 21300000, guid: 4e7652b2766c02e4490e88061f1c6f69, type: 3}
