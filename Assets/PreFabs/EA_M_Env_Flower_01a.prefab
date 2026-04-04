@@ -60,12 +60,73 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8656822036077301415, guid: 3ba45e4e5688d6944bd9ce566fd8e8c6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5098193928571820991, guid: 3ba45e4e5688d6944bd9ce566fd8e8c6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -304945599169855739, guid: 3ba45e4e5688d6944bd9ce566fd8e8c6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3ba45e4e5688d6944bd9ce566fd8e8c6, type: 3}
       propertyPath: m_Name
       value: EA_M_Env_Flower_01a
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3ba45e4e5688d6944bd9ce566fd8e8c6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ba45e4e5688d6944bd9ce566fd8e8c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1215899563565888208}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ba45e4e5688d6944bd9ce566fd8e8c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1156640138293253167}
   m_SourcePrefab: {fileID: 100100000, guid: 3ba45e4e5688d6944bd9ce566fd8e8c6, type: 3}
+--- !u!1 &6563565705279316979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3ba45e4e5688d6944bd9ce566fd8e8c6, type: 3}
+  m_PrefabInstance: {fileID: 6329547498936409762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1215899563565888208
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6563565705279316979}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1156640138293253167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6563565705279316979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbac91f6cefddce46a71239fb7de3c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
+  plantInfo: {fileID: 11400000, guid: f27b34516ee3bd947af3b46dba639387, type: 2}

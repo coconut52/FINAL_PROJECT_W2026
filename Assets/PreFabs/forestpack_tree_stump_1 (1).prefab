@@ -14,7 +14,9 @@ GameObject:
   - component: {fileID: 9070283273266663401}
   - component: {fileID: 6754748073584386155}
   - component: {fileID: 5488159967663867714}
-  m_Layer: 0
+  - component: {fileID: 2929150186057280976}
+  - component: {fileID: -5058783022655224778}
+  m_Layer: 6
   m_Name: forestpack_tree_stump_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,3 +159,37 @@ CapsuleCollider:
   m_Height: 0.76
   m_Direction: 1
   m_Center: {x: -0.02574271, y: 0.04005091, z: 0.043813065}
+--- !u!65 &2929150186057280976
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3845393523849217285}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7124649, y: 0.63507164, z: 0.6072403}
+  m_Center: {x: -0.02574271, y: 0.04005091, z: 0.043813065}
+--- !u!114 &-5058783022655224778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3845393523849217285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbac91f6cefddce46a71239fb7de3c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
+  plantInfo: {fileID: 11400000, guid: e78f71c641b81b34d9f7fb1a714addda, type: 2}

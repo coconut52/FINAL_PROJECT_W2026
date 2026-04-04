@@ -12,24 +12,53 @@ public class PlantInfoUI : MonoBehaviour
 
     [Header("Prompt")]
     public GameObject photoPrompt;
+    public TMP_Text photoPromptText;
+
+    [Header("Camera UI")]
+    public GameObject cameraOverlay;
 
     private void Start()
     {
         HideInfo();
         HidePrompt();
+        HideCameraOverlay();
     }
 
-    public void ShowPrompt()
+    public void ShowPrompt(string message)
     {
         if (!infoPanel.activeSelf)
         {
             photoPrompt.SetActive(true);
+
+            if (photoPromptText != null)
+            {
+                photoPromptText.text = message;
+            }
         }
     }
 
     public void HidePrompt()
     {
-        photoPrompt.SetActive(false);
+        if (photoPrompt != null)
+        {
+            photoPrompt.SetActive(false);
+        }
+    }
+
+    public void ShowCameraOverlay()
+    {
+        if (cameraOverlay != null)
+        {
+            cameraOverlay.SetActive(true);
+        }
+    }
+
+    public void HideCameraOverlay()
+    {
+        if (cameraOverlay != null)
+        {
+            cameraOverlay.SetActive(false);
+        }
     }
 
     public void ShowInfo(PlantInfoData data)
@@ -41,7 +70,8 @@ public class PlantInfoUI : MonoBehaviour
         plantImage.sprite = data.plantImage;
 
         infoPanel.SetActive(true);
-        photoPrompt.SetActive(false);
+        HidePrompt();
+        HideCameraOverlay();
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -55,8 +85,8 @@ public class PlantInfoUI : MonoBehaviour
         Cursor.visible = false;
     }
 
-    public bool IsOpen()
+    public bool IsInfoOpen()
     {
-        return infoPanel.activeSelf;
+        return infoPanel != null && infoPanel.activeSelf;
     }
 }
