@@ -5,7 +5,11 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     public Transform cameraTransform;
 
+    public float gravity = -9.81f;
+    public float groundedVelocity = -2f;
+
     private CharacterController controller;
+    private float verticalVelocity;
 
     void Start()
     {
@@ -14,8 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        float x = Input.GetAxis("Horizontal"); // A/D
-        float z = Input.GetAxis("Vertical");   // W/S
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical"); 
 
         Vector3 forward = cameraTransform.forward;
         Vector3 right = cameraTransform.right;
@@ -28,6 +32,19 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 move = forward * z + right * x;
 
-        controller.Move(move * speed * Time.deltaTime);
+        if (move.magnitude > 1f)
+            move.Normalize();
+
+        if (controller.isGrounded && verticalVelocity < 0)
+        {
+            verticalVelocity = groundedVelocity;
+        }
+
+        verticalVelocity += gravity * Time.deltaTime;
+
+        Vector3 finalMove = move * speed;
+        finalMove.y = verticalVelocity;
+
+        controller.Move(finalMove * Time.deltaTime);
     }
 }
