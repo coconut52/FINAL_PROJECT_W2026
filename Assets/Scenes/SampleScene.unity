@@ -3551,8 +3551,9 @@ MonoBehaviour:
   m_text: "You are a photographer, sent to document the plant life around you. As
     you explore, your camera will automatically appear whenever you\u2019re facing
     a plant worth capturing, so be ready to take the shot. Move through your surroundings,
-    observe carefully, and photograph anything that stands out.\r\n\r\nPress **Esc**
-    to close this menu and begin your assignment.\r\n"
+    observe carefully, and photograph anything that stands out.\n\nPress Tab to open
+    your journal and see what you have taken a picture of and how much you are missing.\r\n\r\nPress
+    **Esc** to close this menu and begin your assignment.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7194,6 +7195,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 5
   cameraTransform: {fileID: 1430691159}
+  gravity: -9.81
+  groundedVelocity: -2
 --- !u!1 &930839676 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
@@ -17632,6 +17635,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1812873973104265164, guid: 4842d54fd881d1140b3de46b24a2ee8a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2573647157052433441, guid: 4842d54fd881d1140b3de46b24a2ee8a, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -17687,6 +17694,22 @@ PrefabInstance:
     - target: {fileID: 6480088822719904115, guid: 4842d54fd881d1140b3de46b24a2ee8a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673250156220360288, guid: 4842d54fd881d1140b3de46b24a2ee8a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673250156220360288, guid: 4842d54fd881d1140b3de46b24a2ee8a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915086887326823282, guid: 4842d54fd881d1140b3de46b24a2ee8a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1800
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915086887326823282, guid: 4842d54fd881d1140b3de46b24a2ee8a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 7774972710814159975, guid: 4842d54fd881d1140b3de46b24a2ee8a, type: 3}
       propertyPath: m_AnchorMax.y
