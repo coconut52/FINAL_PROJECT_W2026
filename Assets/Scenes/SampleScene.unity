@@ -2832,9 +2832,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 128173447}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 128173446}
   m_SourcePrefab: {fileID: 100100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
 --- !u!4 &128173443 stripped
@@ -2855,27 +2852,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &128173447
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8547444}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083064, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.01570833, y: 1.6552377, z: -0.07347193}
 --- !u!1001 &131625492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3190,9 +3166,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 948729451}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 948729450}
@@ -3728,9 +3701,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 684447968}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 684447967}
   m_SourcePrefab: {fileID: 100100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
 --- !u!4 &190996865 stripped
@@ -3819,9 +3789,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 446195962}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 446195961}
@@ -6235,27 +6202,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &446195962
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 446195958}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083062, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.015708327, y: 1.6552377, z: -0.07347193}
 --- !u!1001 &453529555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9336,27 +9282,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &684447968
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684447964}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083061, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.015708325, y: 1.6552377, z: -0.073470026}
 --- !u!1001 &686963611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9492,9 +9417,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 692771410}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 692771409}
   m_SourcePrefab: {fileID: 100100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
 --- !u!4 &692771406 stripped
@@ -9515,27 +9437,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &692771410
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558233090}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083062, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.015708327, y: 1.6552377, z: -0.07347193}
 --- !u!1001 &698186536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10298,6 +10199,69 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a56e2bd8f00652a449359a65b8ad8609, type: 3}
+--- !u!1001 &771921119
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7402009758359158996, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_Name
+      value: Deer_001 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922649801668778606, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -42.040775
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922649801668778606, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922649801668778606, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.654978
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922649801668778606, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9783264
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922649801668778606, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922649801668778606, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.20706889
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922649801668778606, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922649801668778606, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922649801668778606, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23.901
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922649801668778606, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7402009758359158996, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1511394897}
+    - targetCorrespondingSourceObject: {fileID: 7402009758359158996, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1511394898}
+  m_SourcePrefab: {fileID: 100100000, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
 --- !u!1 &776961446
 GameObject:
   m_ObjectHideFlags: 0
@@ -11870,9 +11834,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1682365349}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1682365348}
   m_SourcePrefab: {fileID: 100100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
 --- !u!4 &886167789 stripped
@@ -12224,27 +12185,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &948729451
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948729447}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083062, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.015708327, y: 1.6552377, z: -0.07347193}
 --- !u!1001 &951671059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12555,9 +12495,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 985524672}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 985524671}
   m_SourcePrefab: {fileID: 100100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
 --- !u!4 &985524668 stripped
@@ -12578,27 +12515,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &985524672
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 795677942}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083062, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.015708327, y: 1.6552377, z: -0.07347193}
 --- !u!1001 &985748320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13271,9 +13187,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1830326812}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1830326811}
@@ -15236,9 +15149,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1238564959}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1238564958}
   m_SourcePrefab: {fileID: 100100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
 --- !u!4 &1238564955 stripped
@@ -15259,27 +15169,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &1238564959
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930839676}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083061, y: 3.5331333, z: 1.6418338}
-  m_Center: {x: -0.015708325, y: 1.6552376, z: -0.073470026}
 --- !u!1 &1261838004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
@@ -18705,6 +18594,45 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
   m_PrefabInstance: {fileID: 1509913381}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1511394891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7402009758359158996, guid: 4ecab060b0afb5d4db61f7f1311b9e24, type: 3}
+  m_PrefabInstance: {fileID: 771921119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1511394897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511394891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbac91f6cefddce46a71239fb7de3c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
+  plantInfo: {fileID: 11400000, guid: 182315e57667e8946b6b1e4ba06a7632, type: 2}
+--- !u!65 &1511394898
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511394891}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1512845304 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
@@ -19129,9 +19057,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1637982217}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1637982216}
@@ -20250,27 +20175,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &1637982217
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1637982213}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083061, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.015707849, y: 1.6552377, z: -0.07347193}
 --- !u!1 &1639203089
 GameObject:
   m_ObjectHideFlags: 0
@@ -21060,27 +20964,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &1682365349
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682365345}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083062, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.015708327, y: 1.6552377, z: -0.07347193}
 --- !u!1001 &1684622040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22240,9 +22123,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1753165764}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1753165763}
   m_SourcePrefab: {fileID: 100100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
 --- !u!4 &1753165760 stripped
@@ -22263,27 +22143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &1753165764
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032338959}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083062, y: 3.5331335, z: 1.6418337}
-  m_Center: {x: -0.015708327, y: 1.6552377, z: -0.073471926}
 --- !u!1 &1755605047
 GameObject:
   m_ObjectHideFlags: 0
@@ -23111,27 +22970,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &1830326812
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830326808}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083062, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.015708327, y: 1.6552377, z: -0.07347193}
 --- !u!1001 &1832710233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24262,9 +24100,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1924897790}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1924897789}
   m_SourcePrefab: {fileID: 100100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
 --- !u!4 &1906981753 stripped
@@ -24526,27 +24361,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &1924897790
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1924897786}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083062, y: 3.5331335, z: 1.6418337}
-  m_Center: {x: -0.015708327, y: 1.6552377, z: -0.07347002}
 --- !u!1001 &1925655723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25577,9 +25391,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2103881333}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2103881332}
   m_SourcePrefab: {fileID: 100100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
 --- !u!4 &2001611691 stripped
@@ -25874,9 +25685,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2024557999}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2024557998}
   m_SourcePrefab: {fileID: 100100000, guid: fda5f0fbb824fb847a8635f96d681d0a, type: 3}
 --- !u!4 &2024557995 stripped
@@ -25897,27 +25705,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &2024557999
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1204657539}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083062, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.015708327, y: 1.6552377, z: -0.07347193}
 --- !u!1001 &2044208274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26870,27 +26657,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhotographablePlant
   plantInfo: {fileID: 11400000, guid: df07e0f3420a9e3438c417e39800fc65, type: 2}
---- !u!65 &2103881333
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2103881329}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.7083062, y: 3.5331335, z: 1.6418338}
-  m_Center: {x: -0.015708327, y: 1.6552377, z: -0.07347193}
 --- !u!1001 &2105193250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29165,3 +28931,4 @@ SceneRoots:
   - {fileID: 1446164646}
   - {fileID: 1373676738}
   - {fileID: 578515765}
+  - {fileID: 771921119}
