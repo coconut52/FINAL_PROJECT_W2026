@@ -17,6 +17,8 @@ public class PlantInfoUI : MonoBehaviour
     [Header("Camera UI")]
     public GameObject cameraOverlay;
 
+    public AudioSource audioSource;
+
     private void Start()
     {
         HideInfo();
@@ -70,6 +72,7 @@ public class PlantInfoUI : MonoBehaviour
         plantImage.sprite = data.plantImage;
 
         infoPanel.SetActive(true);
+        audioSource.Play();
         HidePrompt();
         HideCameraOverlay();
 
